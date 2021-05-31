@@ -1,4 +1,4 @@
-@media(max-width: 370px)
+@media (min-width: 250px) and (max-width: 349px)
 {
     #hero
     {
@@ -21,7 +21,6 @@
     #hero p 
     {
       color: #fff;
-      margin-left: 0;
       margin-bottom: 57px;
       font-size: 20px;
       font-family: "Poppins", sans-serif;
@@ -30,10 +29,160 @@
     {
         position: relative;
         z-index: 2;
-        max-width: 300px !important ;
+        max-width: 70% !important ;
+        margin-left: -2% !important;
     }
 }
-@media(max-width: 850px)
+@media (min-width: 350px) and (max-width: 399px)
+{
+    #hero
+    {
+        width: 100%;
+        height: 100vh;
+        background: url(../img/Hero-Resp.png) top right;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #hero h1 
+    {
+        margin: 205% -24% -11px -12px;
+        font-size: 6.3vw;
+        font-weight: 700;
+        line-height: 29px;
+        color: #fff;
+        text-shadow: 2px 2px #000;
+    }
+
+    #hero p 
+    {
+      color: #fff;
+      margin-bottom: 57px;
+      font-size: 20px;
+      font-family: "Poppins", sans-serif;
+    }
+    #hero .hero-container 
+    {
+        position: relative;
+        z-index: 2;
+        max-width: 67% !important ;
+        margin-left: -7% !important;
+    }
+}
+
+@media(min-width:400px)and(max-width: 449px)
+{
+    #hero
+    {
+        width: 100%;
+        height: 100vh;
+        background: url(../img/Hero-Resp.png) top right;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #hero h1 
+    {
+        margin: 205% -24% -11px -12px;
+        font-size: 6.3vw;
+        font-weight: 700;
+        line-height: 29px;
+        color: #fff;
+        text-shadow: 2px 2px #000;
+    }
+
+    #hero p 
+    {
+      color: #fff;
+      margin-bottom: 57px;
+      font-size: 20px;
+      font-family: "Poppins", sans-serif;
+    }
+    #hero .hero-container 
+    {
+        position: relative;
+        z-index: 2;
+        max-width: 77% !important ;
+        margin-left: -58px !important;
+    }
+}
+
+@media (min-width: 1024px)
+{
+  #hero 
+  {
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+}
+/*
+@media (max-width: 768px) 
+{
+  #hero h1 
+  {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 
+  {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}*/
+@media (max-width: 767px) 
+{
+    .testimonials 
+    {
+      margin: 30px 10px;
+    }
+}
+@media (max-width: 768px) 
+{
+    .breadcrumbs .d-flex 
+    {
+      display: block !important;
+    }
+    .breadcrumbs ol 
+    {
+      display: block;
+    }
+    .breadcrumbs ol li 
+    {
+      display: inline-block;
+    }
+}
+@media (max-width: 1199px)
+{
+    #header
+    {
+      left: -300px;
+    }
+    #main 
+    {
+      margin-left: 0;
+    }
+  }
+@media (max-width: 1199px)
+{
+    #footer
+    {
+      position: static;
+      width: auto;
+      padding-right: 20px 15px;
+    }
+}
+@media (max-width: 768px)
+{
+    .portfolio-details .portfolio-description h2
+    {
+      width: 100%;
+    }
+    .portfolio-details .portfolio-info
+    {
+      position: static;
+      margin-top: 30px;
+    }
+}
+@media screen and(max-width: 850px)
 {
     #hero
     {

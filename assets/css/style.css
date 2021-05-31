@@ -120,14 +120,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 300px;
 }
 
-@media (max-width: 1199px) {
-  #header {
-    left: -300px;
-  }
-  #main {
-    margin-left: 0;
-  }
-}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -264,25 +257,6 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 3px solid #dd1414;
 }
 
-@media (min-width: 1024px)
-{
-  #hero {
-    background-size:cover;
-    background-repeat: no-repeat;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Sections General
@@ -739,11 +713,6 @@ section {
   background-color: #149ddd !important;
 }
 
-@media (max-width: 767px) {
-  .testimonials {
-    margin: 30px 10px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Contact
@@ -960,17 +929,7 @@ section {
   content: "/";
 }
 
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-  .breadcrumbs ol {
-    display: block;
-  }
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
-}
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
@@ -1049,15 +1008,7 @@ section {
   padding: 0;
 }
 
-@media (max-width: 768px) {
-  .portfolio-details .portfolio-description h2 {
-    width: 100%;
-  }
-  .portfolio-details .portfolio-info {
-    position: static;
-    margin-top: 30px;
-  }
-}
+
 
 /*--------------------------------------------------------------
 # Footer
@@ -1085,10 +1036,4 @@ section {
   color: #eaebf0;
 }
 
-@media (max-width: 1199px) {
-  #footer {
-    position: static;
-    width: auto;
-    padding-right: 20px 15px;
-  }
-}
+
