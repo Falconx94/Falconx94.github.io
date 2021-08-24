@@ -11,7 +11,7 @@ function isMobile() {
 
 const formulario = document.querySelector('#formulario');
 const buttonSubmit = document.querySelector('#submit');
-const urlDesktop = 'https://api.whatsapp.com/send/?text=';
+const urlDesktop = 'https://api.whatsapp.com/send/?text='; //'https://web.whatsapp.com/'
 const urlMobile = 'whatsapp://';
 const telefono = '526871253439';
 
