@@ -11,7 +11,7 @@ function isMobile() {
 
 const formulario = document.querySelector('#formulario');
 const buttonSubmit = document.querySelector('#submit');
-const urlDesktop = 'https://web.whatsapp.com/';
+const urlDesktop = 'https://api.whatsapp.com/send/?text=';
 const urlMobile = 'whatsapp://';
 const telefono = '526871253439';
 
@@ -24,7 +24,7 @@ formulario.addEventListener('submit', (event) => {
         let email = document.querySelector('#email').value
         let asunto = document.querySelector('#asunto').value
         let message = document.querySelector('#message').value
-        let mensaje = 'send?phone=' + telefono + '&text=Hola soy%0A' + nombre + ' te escribo por el asunto de:' + asunto + 'Mi correo electrónico es: %0A' + email + '%0A' + message +''
+        let mensaje = 'send?phone=' + telefono + '&text=Hola soy ' + nombre + '%0ATe escribo por el asunto de: ' + asunto + '%0AMi correo electrónico es: ' + email + '%0A%0A' + message +''
         if(isMobile()) {
             window.open(urlMobile + mensaje, '_blank')
         }else{
