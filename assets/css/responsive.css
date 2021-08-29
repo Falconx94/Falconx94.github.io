@@ -10,7 +10,7 @@
     }
     #hero h1 
     {
-        margin: 205% -24% -11px -12px;
+        margin: 170% -17% -11px -12px;
         font-size: 6.3vw;
         font-weight: 700;
         line-height: 29px;
@@ -27,10 +27,17 @@
     }
     #hero .hero-container 
     {
-        position: relative;
-        z-index: 2;
-        max-width: 70% !important ;
-        margin-left: -2% !important;
+      position: relative;
+      z-index: 2;
+      max-width: 70% !important ;
+      margin: auto;
+      margin-right: 17px;
+    }
+    #contact p
+    {
+      margin: auto;
+      left: -15% !important;
+      padding: 0px;
     }
 }
 @media (min-width: 350px) and (max-width: 399px)
