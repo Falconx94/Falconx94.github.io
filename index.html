@@ -27,6 +27,8 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/responsive.css" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -596,7 +598,7 @@
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <label for="name">Tu Nombre</label>
-                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <input type="text" name="name" class="form-control" id="nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">Tu Email</label>
@@ -605,11 +607,11 @@
               </div>
               <div class="form-group">
                 <label for="name">Asunto</label>
-                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <input type="text" class="form-control" name="subject" id="asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
               </div>
               <div class="form-group">
                 <label for="name">Mensaje</label>
-                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                <textarea class="form-control" name="message" id="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
               </div>
               <div class="text-center"><button id="submit" type="submit" class="boton"><i class="fab fa-whatsapp"></i> Enviar WhatsApp</button></div>
             </form>
@@ -658,8 +660,9 @@
             $(this).removeClass("focus");
         }
     });
-
   </script>
+   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   <script src="assets/js/whatsapp.js"></script>
 </body>
 
 </html>
